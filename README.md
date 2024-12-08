@@ -36,5 +36,5 @@ Implementar búsquedas avanzadas.
 ##Contribución ✨
 ¡Toda contribución es bienvenida! Si tienes ideas o encuentras algún problema, no dudes en abrir un issue o enviar un pull request.
 
-##Autor.
+##Autor
 Luis Pablo Chávez
