@@ -29,12 +29,12 @@ Este proyecto es una aplicación web desarrollada con **Spring Framework** que p
 5.Accede a la aplicación desde tu navegador en:
   http://localhost:8080
   
-##Próximas Mejoras 🚧
+## Próximas Mejoras 🚧
 Agregar la funcionalidad de edición de contactos.
 Implementar búsquedas avanzadas.
 
-##Contribución ✨
+## Contribución ✨
 ¡Toda contribución es bienvenida! Si tienes ideas o encuentras algún problema, no dudes en abrir un issue o enviar un pull request.
 
-##Autor
+## Autor
 Luis Pablo Chávez
