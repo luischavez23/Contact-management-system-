@@ -1,0 +1,122 @@
+2024-12-08T17:15:54.754-06:00  INFO 5128 --- [cms] [Test worker] org.bedu.cms.CmsApplicationTests         : Starting CmsApplicationTests using Java 21.0.5 with PID 5128 (started by lenovo in C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms)
+2024-12-08T17:15:54.757-06:00  INFO 5128 --- [cms] [Test worker] org.bedu.cms.CmsApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T17:15:59.473-06:00  INFO 5128 --- [cms] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T17:15:59.920-06:00  INFO 5128 --- [cms] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 311 ms. Found 1 JPA repository interface.
+2024-12-08T17:16:03.588-06:00  INFO 5128 --- [cms] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T17:16:03.906-06:00  INFO 5128 --- [cms] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-08T17:16:04.037-06:00  INFO 5128 --- [cms] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T17:16:05.881-06:00  INFO 5128 --- [cms] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T17:16:06.057-06:00  INFO 5128 --- [cms] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T17:16:06.576-06:00  INFO 5128 --- [cms] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@47be41c6
+2024-12-08T17:16:06.582-06:00  INFO 5128 --- [cms] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T17:16:06.790-06:00  INFO 5128 --- [cms] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.47.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-08T17:16:09.522-06:00  INFO 5128 --- [cms] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T17:16:09.650-06:00  INFO 5128 --- [cms] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T17:16:12.659-06:00  INFO 5128 --- [cms] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-08T17:16:15.366-06:00  INFO 5128 --- [cms] [Test worker] org.bedu.cms.CmsApplicationTests         : Started CmsApplicationTests in 22.379 seconds (process running for 27.891)
+2024-12-08T17:16:17.890-06:00  INFO 5128 --- [cms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T17:16:17.899-06:00  INFO 5128 --- [cms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T17:16:17.971-06:00  INFO 5128 --- [cms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T17:16:44.989-06:00  INFO 8156 --- [cms] [main] org.bedu.cms.CmsApplication              : Starting CmsApplication using Java 21.0.5 with PID 8156 (C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms\build\classes\java\main started by lenovo in C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms)
+2024-12-08T17:16:44.994-06:00  INFO 8156 --- [cms] [main] org.bedu.cms.CmsApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T17:16:48.656-06:00  INFO 8156 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T17:16:48.807-06:00  INFO 8156 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
+2024-12-08T17:16:50.733-06:00  INFO 8156 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T17:16:50.777-06:00  INFO 8156 --- [cms] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T17:16:50.778-06:00  INFO 8156 --- [cms] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-08T17:16:51.165-06:00  INFO 8156 --- [cms] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T17:16:51.167-06:00  INFO 8156 --- [cms] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5938 ms
+2024-12-08T17:16:51.648-06:00  INFO 8156 --- [cms] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T17:16:51.828-06:00  INFO 8156 --- [cms] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-08T17:16:51.920-06:00  INFO 8156 --- [cms] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T17:16:52.818-06:00  INFO 8156 --- [cms] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T17:16:52.902-06:00  INFO 8156 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T17:16:53.258-06:00  INFO 8156 --- [cms] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2bdab835
+2024-12-08T17:16:53.264-06:00  INFO 8156 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T17:16:53.369-06:00  INFO 8156 --- [cms] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.47.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-08T17:16:56.029-06:00  INFO 8156 --- [cms] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T17:16:56.135-06:00  INFO 8156 --- [cms] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T17:16:56.873-06:00  INFO 8156 --- [cms] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-08T17:16:57.775-06:00  INFO 8156 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-08T17:16:57.807-06:00  INFO 8156 --- [cms] [main] org.bedu.cms.CmsApplication              : Started CmsApplication in 15.369 seconds (process running for 17.982)
+2024-12-08T17:17:28.149-06:00  INFO 8156 --- [cms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T17:17:28.155-06:00  INFO 8156 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T17:17:28.157-06:00  INFO 8156 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-08T17:19:46.065-06:00  INFO 9676 --- [cms] [main] org.bedu.cms.CmsApplication              : Starting CmsApplication using Java 21.0.5 with PID 9676 (C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms\build\classes\java\main started by lenovo in C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms)
+2024-12-08T17:19:46.073-06:00  INFO 9676 --- [cms] [main] org.bedu.cms.CmsApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T17:19:49.766-06:00  INFO 9676 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T17:19:49.971-06:00  INFO 9676 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 1 JPA repository interface.
+2024-12-08T17:19:52.171-06:00  INFO 9676 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T17:19:52.214-06:00  INFO 9676 --- [cms] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T17:19:52.215-06:00  INFO 9676 --- [cms] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-08T17:19:52.368-06:00  INFO 9676 --- [cms] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T17:19:52.370-06:00  INFO 9676 --- [cms] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6068 ms
+2024-12-08T17:19:53.081-06:00  INFO 9676 --- [cms] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T17:19:53.247-06:00  INFO 9676 --- [cms] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-08T17:19:53.336-06:00  INFO 9676 --- [cms] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T17:19:54.148-06:00  INFO 9676 --- [cms] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T17:19:54.232-06:00  INFO 9676 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T17:19:54.581-06:00  INFO 9676 --- [cms] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@147e0734
+2024-12-08T17:19:54.588-06:00  INFO 9676 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T17:19:54.776-06:00  INFO 9676 --- [cms] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.47.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-08T17:19:58.054-06:00  INFO 9676 --- [cms] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T17:19:58.161-06:00  INFO 9676 --- [cms] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T17:19:59.231-06:00  INFO 9676 --- [cms] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-08T17:20:00.574-06:00  INFO 9676 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-08T17:20:00.596-06:00  INFO 9676 --- [cms] [main] org.bedu.cms.CmsApplication              : Started CmsApplication in 17.211 seconds (process running for 19.191)
+2024-12-08T17:20:02.607-06:00  INFO 9676 --- [cms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T17:20:02.609-06:00  INFO 9676 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T17:20:02.612-06:00  INFO 9676 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-08T17:22:10.231-06:00  INFO 1240 --- [cms] [main] org.bedu.cms.CmsApplication              : Starting CmsApplication using Java 21.0.5 with PID 1240 (C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms\build\classes\java\main started by lenovo in C:\Users\lenovo\OneDrive\Escritorio\Backend\Java\cms)
+2024-12-08T17:22:10.236-06:00  INFO 1240 --- [cms] [main] org.bedu.cms.CmsApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T17:22:13.596-06:00  INFO 1240 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T17:22:13.801-06:00  INFO 1240 --- [cms] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interface.
+2024-12-08T17:22:15.857-06:00  INFO 1240 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-08T17:22:15.915-06:00  INFO 1240 --- [cms] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T17:22:15.916-06:00  INFO 1240 --- [cms] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-08T17:22:16.141-06:00  INFO 1240 --- [cms] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T17:22:16.141-06:00  INFO 1240 --- [cms] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5700 ms
+2024-12-08T17:22:16.701-06:00  INFO 1240 --- [cms] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T17:22:17.200-06:00  INFO 1240 --- [cms] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-08T17:22:17.296-06:00  INFO 1240 --- [cms] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T17:22:18.710-06:00  INFO 1240 --- [cms] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T17:22:18.886-06:00  INFO 1240 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T17:22:19.538-06:00  INFO 1240 --- [cms] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@44dd0d38
+2024-12-08T17:22:19.557-06:00  INFO 1240 --- [cms] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T17:22:19.984-06:00  INFO 1240 --- [cms] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.47.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-08T17:22:24.820-06:00  INFO 1240 --- [cms] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T17:22:24.921-06:00  INFO 1240 --- [cms] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T17:22:25.616-06:00  INFO 1240 --- [cms] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-08T17:22:26.966-06:00  INFO 1240 --- [cms] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-08T17:22:26.983-06:00  INFO 1240 --- [cms] [main] org.bedu.cms.CmsApplication              : Started CmsApplication in 18.614 seconds (process running for 20.068)
+2024-12-08T17:22:33.405-06:00  INFO 1240 --- [cms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T17:22:33.406-06:00  INFO 1240 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T17:22:33.409-06:00  INFO 1240 --- [cms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
