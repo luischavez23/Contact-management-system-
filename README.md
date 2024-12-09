@@ -6,10 +6,10 @@ Este proyecto es una aplicación web desarrollada con **Spring Framework** que p
 - Eliminar contactos existentes.  
 
 ## Tecnologías Utilizadas 🛠️  
-- **Java**  
+- **Bootstrap 5**  
 - **Spring Web**  
-- **Thymeleaf** (para la vista)  
-- **Spring Data JPA** (base de datos en memoria para pruebas)  
+- **Thymeleaf** 
+- **Spring Data JPA** 
 
 ## Características  
 - **Interfaz simple y funcional:** Diseño intuitivo para una fácil gestión de contactos.  
@@ -30,8 +30,8 @@ Este proyecto es una aplicación web desarrollada con **Spring Framework** que p
   http://localhost:8080
   
 ## Próximas Mejoras 🚧
-Agregar la funcionalidad de edición de contactos.
-Implementar búsquedas avanzadas.
+- Agregar la funcionalidad de edición de contactos.
+- Implementar búsquedas avanzadas.
 
 ## Contribución ✨
 ¡Toda contribución es bienvenida! Si tienes ideas o encuentras algún problema, no dudes en abrir un issue o enviar un pull request.
